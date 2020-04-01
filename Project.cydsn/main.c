@@ -32,7 +32,7 @@ void MakeLongLight()
     D1_Write(0);
     CyDelay(250);
 }
-
+/// Chip coup
 void MakeShortLight()
 {
     D1_Write(1);
@@ -54,8 +54,8 @@ void LCDPrint(char* string)
 }
 void Send(char* string)
 {
-    int i;
-    if(string == "SOS"){
+    int i;  
+    if(strcmp(string, "SOS")){
         LCDPrint("SOS");
         for(i=1;i<3;i++){
             MakeShortLight();
@@ -70,7 +70,7 @@ void Send(char* string)
         }
         CyDelay(500);
     }
-    else if(string == "BEAMS"){
+    else if (strcmp(string,"BEAMS")){
         LCDPrint("BEAMS");
         MakeLongLight();
         for(i=1;i<3;i++){
@@ -99,10 +99,10 @@ bool Send_SOS_message(char* string)
         return false;
     }
     else if(strlen(string) == 2){
-        if(string == "1*"){
+        if (strcmp(string,"1*")){
             Send("SOS");
         }
-        else if(string == "2*"){
+        else if(strcmp(string,"2*")){
             Send("BEAMS");
         }
         return true;
@@ -121,7 +121,7 @@ int main(void)
 
     for(;;)
     {   
-        if(keypadScan() != "z"){
+        if (!(strcmp(keypadScan(),"z"))){
             append(signal,keypadScan());
         }
         if(Send_SOS_message(signal) == true){

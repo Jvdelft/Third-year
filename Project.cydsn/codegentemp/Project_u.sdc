@@ -1,3 +1,3 @@
-# Component constraints for C:\Users\julie\Documents\PSoC Creator\DigitalElectronics\Project.cydsn\TopDesign\TopDesign.cysch
-# Project: C:\Users\julie\Documents\PSoC Creator\DigitalElectronics\Project.cydsn\Project.cyprj
-# Date: Wed, 01 Apr 2020 10:23:14 GMT
+# Component constraints for C:\Users\vidan\Documents\GitHub\DigitalElectronicsProject\Project.cydsn\TopDesign\TopDesign.cysch
+# Project: C:\Users\vidan\Documents\GitHub\DigitalElectronicsProject\Project.cydsn\Project.cyprj
+# Date: Wed, 01 Apr 2020 15:18:53 GMT
