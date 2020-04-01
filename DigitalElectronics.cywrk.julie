@@ -199,10 +199,8 @@
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
 <OpenDocs>
-<name v=".\Project.cydsn\Project.cydwr" />
-<name v=".\Project.cydsn\main.c" />
-<name v=".\Project.cydsn\TopDesign\TopDesign.cysch" />
 <name v="..\..\..\Desktop\BA3\Q2\Digital Electronics\Project\keypad.c" />
+<name v=".\Project.cydsn\main.c" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -210,7 +208,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1013, 416" SelectedTabbedMdiWindow="298397e8-3062-4449-b7d4-c7aeb396fd49"><DocumentWindow Key="C:\Users\julie\Documents\PSoC Creator\DigitalElectronics\Project.cydsn\Project.cydwr" Guid="4bc258f4-3b22-4755-8f22-c6edb9aebea5" /><DocumentWindow Key="C:\Users\julie\Documents\PSoC Creator\DigitalElectronics\Project.cydsn\main.c" Guid="298397e8-3062-4449-b7d4-c7aeb396fd49" /><DocumentWindow Key="C:\Users\julie\Documents\PSoC Creator\DigitalElectronics\Project.cydsn\TopDesign\TopDesign.cysch" Guid="2fb58d4a-0b26-4b15-b44b-48f8a5b652f1" /><DocumentWindow Key="C:\Users\julie\Desktop\BA3\Q2\Digital Electronics\Project\keypad.c" Guid="6d6c9610-dd15-4e00-8f5e-4858a2e255ca" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="299b1185-4679-4649-abaf-9b6de428a15f" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1013, 416" SelectedTabbedMdiWindow="b8ac9191-cf96-4212-bf95-c106e4a93bab"><DocumentWindow Key="C:\Users\julie\Desktop\BA3\Q2\Digital Electronics\Project\keypad.c" Guid="6d6c9610-dd15-4e00-8f5e-4858a2e255ca" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="299b1185-4679-4649-abaf-9b6de428a15f" /><DocumentWindow Key="C:\Users\julie\Documents\GitHub\DigitalElectronicsProject\Project.cydsn\main.c" Guid="b8ac9191-cf96-4212-bf95-c106e4a93bab" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
