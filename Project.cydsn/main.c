@@ -25,11 +25,11 @@ void MakeLongLight()
     D2_Write(1);
     D3_Write(1);
     D4_Write(1);
-    CyDelay(250);
+    CyDelay(500);
     D1_Write(0);
-    D1_Write(0);
-    D1_Write(0);
-    D1_Write(0);
+    D2_Write(0);
+    D3_Write(0);
+    D4_Write(0);
     CyDelay(250);
 }
 /// Chip coup
@@ -39,11 +39,11 @@ void MakeShortLight()
     D2_Write(1);
     D3_Write(1);
     D4_Write(1);
-    CyDelay(500);
+    CyDelay(250);
     D1_Write(0);
-    D1_Write(0);
-    D1_Write(0);
-    D1_Write(0);
+    D2_Write(0);
+    D3_Write(0);
+    D4_Write(0);
     CyDelay(250);
 }
 
@@ -132,8 +132,7 @@ int main(void)
             D2_Write(1);
             D3_Write(1);
             D4_Write(1);
-            CyDelay(20);
-            
+
         }
         else if(Switch_2_Read()){
             MakeShortLight();
@@ -141,10 +140,11 @@ int main(void)
         else if(Switch_3_Read()){
             MakeLongLight();
         }
-        D1_Write(0);
+        else {D1_Write(0);
         D2_Write(0);
         D3_Write(0);
         D4_Write(0);
+        }
     }
 }
 

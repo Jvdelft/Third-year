@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="DigitalElectronics\Project\Generated_Source\PSoC5\D4">
 <ExpandedNodeIds>
 <v>DigitalElectronics</v>
 <v>DigitalElectronics\Project</v>
@@ -38,6 +38,7 @@
 <v>DigitalElectronics\Project\Generated_Source\PSoC5</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
+<v>DigitalElectronics\Project\Project.cydwr\System</v>
 <v>DigitalElectronics\Project\Project.cydwr\Directives</v>
 <v>DigitalElectronics\Project\Project.cydwr\Flash Security</v>
 <v>DigitalElectronics\Project\Project.cydwr\EEPROM</v>
@@ -86,7 +87,6 @@
 <v>DigitalElectronics\Project\Generated_Source\PSoC5\cyfitteriar.inc</v>
 <v>DigitalElectronics\Project\Generated_Source\PSoC5\cyfitterrv.inc</v>
 <v>DigitalElectronics\Project\Generated_Source\PSoC5\cymetadata.c</v>
-<v>DigitalElectronics\Project\Generated_Source\PSoC5\project.h</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
