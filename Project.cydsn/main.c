@@ -18,6 +18,7 @@ char * append(char * string1, char * string2)
     asprintf(&result, "%s%s", string1, string2);
     return result;
 }
+///et ca fait bim bam boum
 
 void MakeLongLight()
 {
