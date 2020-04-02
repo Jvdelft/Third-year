@@ -1,37 +1,14 @@
---------------- Build Started: 04/02/2020 09:21:35 Project: Project, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+--------------- Build Started: 04/02/2020 09:30:43 Project: Project, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
 The code generation step is up to date.
-arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/main.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c main.c -o .\CortexM3\ARM_GCC_541\Debug\main.o
-main.c: In function 'append':
-main.c:57:5: warning: implicit declaration of function 'asprintf' [-Wimplicit-function-declaration]
-     asprintf(&result, "%s%s", string1, string2);
-     ^
-main.c: In function 'main':
-main.c:247:22: warning: passing argument 1 of 'strcmp' makes pointer from integer without a cast [-Wint-conversion]
-         if (!(strcmp(keypadScan(),"z"))){
-                      ^
-In file included from c:\program files (x86)\cypress\psoc creator\4.3\psoc creator\import\gnu\arm\5.4.1\arm-none-eabi\include\string.h:10:0,
-                 from Generated_Source\PSoC5/CyLib.h:22,
-                 from Generated_Source\PSoC5/CyDmac.h:25,
-                 from Generated_Source\PSoC5/project.h:54,
-                 from keypad.h:12,
-                 from main.c:12:
-c:\program files (x86)\cypress\psoc creator\4.3\psoc creator\import\gnu\arm\5.4.1\arm-none-eabi\include\string.h:28:6: note: expected 'const char *' but argument is of type 'uint8_t {aka unsigned char}'
- int  _EXFUN(strcmp,(const char *, const char *));
-      ^
-main.c:248:27: warning: passing argument 2 of 'append' makes pointer from integer without a cast [-Wint-conversion]
-             append(signal,keypadScan());
-                           ^
-main.c:54:8: note: expected 'char *' but argument is of type 'uint8_t {aka unsigned char}'
- char * append(char * string1, char * string2)
-        ^
-arm-none-eabi-ar.exe -rs .\CortexM3\ARM_GCC_541\Debug\Project.a .\CortexM3\ARM_GCC_541\Debug\Switch_1.o .\CortexM3\ARM_GCC_541\Debug\D1.o .\CortexM3\ARM_GCC_541\Debug\D2.o .\CortexM3\ARM_GCC_541\Debug\D3.o .\CortexM3\ARM_GCC_541\Debug\D4.o .\CortexM3\ARM_GCC_541\Debug\CyDmac.o .\CortexM3\ARM_GCC_541\Debug\CyFlash.o .\CortexM3\ARM_GCC_541\Debug\CyLib.o .\CortexM3\ARM_GCC_541\Debug\cyPm.o .\CortexM3\ARM_GCC_541\Debug\CySpc.o .\CortexM3\ARM_GCC_541\Debug\cyutils.o .\CortexM3\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM3\ARM_GCC_541\Debug\Switch_2.o .\CortexM3\ARM_GCC_541\Debug\Switch_3.o .\CortexM3\ARM_GCC_541\Debug\LCD_Char_1.o .\CortexM3\ARM_GCC_541\Debug\LCD_Char_1_PM.o .\CortexM3\ARM_GCC_541\Debug\LCD_Char_1_LCDPort.o .\CortexM3\ARM_GCC_541\Debug\ROW1.o .\CortexM3\ARM_GCC_541\Debug\ROW2.o .\CortexM3\ARM_GCC_541\Debug\ROW3.o .\CortexM3\ARM_GCC_541\Debug\ROW0.o .\CortexM3\ARM_GCC_541\Debug\COL1.o .\CortexM3\ARM_GCC_541\Debug\COL2.o .\CortexM3\ARM_GCC_541\Debug\COL0.o .\CortexM3\ARM_GCC_541\Debug\CyBootAsmGnu.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/keypad.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c keypad.c -o .\CortexM3\ARM_GCC_541\Debug\keypad.o
+arm-none-eabi-ar.exe -rs .\CortexM3\ARM_GCC_541\Debug\Project.a .\CortexM3\ARM_GCC_541\Debug\Switch_1.o .\CortexM3\ARM_GCC_541\Debug\D1.o .\CortexM3\ARM_GCC_541\Debug\D2.o .\CortexM3\ARM_GCC_541\Debug\D3.o .\CortexM3\ARM_GCC_541\Debug\D4.o .\CortexM3\ARM_GCC_541\Debug\CyDmac.o .\CortexM3\ARM_GCC_541\Debug\CyFlash.o .\CortexM3\ARM_GCC_541\Debug\CyLib.o .\CortexM3\ARM_GCC_541\Debug\cyPm.o .\CortexM3\ARM_GCC_541\Debug\CySpc.o .\CortexM3\ARM_GCC_541\Debug\cyutils.o .\CortexM3\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM3\ARM_GCC_541\Debug\Switch_2.o .\CortexM3\ARM_GCC_541\Debug\Switch_3.o .\CortexM3\ARM_GCC_541\Debug\LCD_Char_1.o .\CortexM3\ARM_GCC_541\Debug\LCD_Char_1_PM.o .\CortexM3\ARM_GCC_541\Debug\LCD_Char_1_LCDPort.o .\CortexM3\ARM_GCC_541\Debug\ROW1.o .\CortexM3\ARM_GCC_541\Debug\ROW2.o .\CortexM3\ARM_GCC_541\Debug\ROW3.o .\CortexM3\ARM_GCC_541\Debug\ROW0.o .\CortexM3\ARM_GCC_541\Debug\COL1.o .\CortexM3\ARM_GCC_541\Debug\COL2.o .\CortexM3\ARM_GCC_541\Debug\COL3.o .\CortexM3\ARM_GCC_541\Debug\CyBootAsmGnu.o
 arm-none-eabi-ar.exe: creating .\CortexM3\ARM_GCC_541\Debug\Project.a
-arm-none-eabi-gcc.exe -Wl,--start-group -o C:\Users\vidan\Documents\GitHub\DigitalElectronicsProject\Project.cydsn\CortexM3\ARM_GCC_541\Debug\Project.elf .\CortexM3\ARM_GCC_541\Debug\main.o .\CortexM3\ARM_GCC_541\Debug\keypad.o .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM3\ARM_GCC_541\Debug\cymetadata.o .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o .\CortexM3\ARM_GCC_541\Debug\Project.a "C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_541\Debug\CyComponentLibrary.a" -mcpu=cortex-m3 -mthumb -L Generated_Source\PSoC5 -Wl,-Map,.\CortexM3\ARM_GCC_541\Debug/Project.map -T Generated_Source\PSoC5\cm3gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
-cyelftool.exe -C C:\Users\vidan\Documents\GitHub\DigitalElectronicsProject\Project.cydsn\CortexM3\ARM_GCC_541\Debug\Project.elf --flash_row_size 256 --flash_size 262144 --flash_offset 0x00000000
+arm-none-eabi-gcc.exe -Wl,--start-group -o C:\Users\julie\Documents\GitHub\DigitalElectronicsProject\Project.cydsn\CortexM3\ARM_GCC_541\Debug\Project.elf .\CortexM3\ARM_GCC_541\Debug\main.o .\CortexM3\ARM_GCC_541\Debug\keypad.o .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM3\ARM_GCC_541\Debug\cymetadata.o .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o .\CortexM3\ARM_GCC_541\Debug\Project.a "C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_541\Debug\CyComponentLibrary.a" -mcpu=cortex-m3 -mthumb -L Generated_Source\PSoC5 -Wl,-Map,.\CortexM3\ARM_GCC_541\Debug/Project.map -T Generated_Source\PSoC5\cm3gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
+cyelftool.exe -C C:\Users\julie\Documents\GitHub\DigitalElectronicsProject\Project.cydsn\CortexM3\ARM_GCC_541\Debug\Project.elf --flash_row_size 256 --flash_size 262144 --flash_offset 0x00000000
 No ELF section .cychecksum found, creating one
 Application checksum calculated and stored in ELF section .cychecksum
 Checksum calculated and stored in ELF section .cymeta
-cyelftool.exe -S C:\Users\vidan\Documents\GitHub\DigitalElectronicsProject\Project.cydsn\CortexM3\ARM_GCC_541\Debug\Project.elf
-Flash used: 5392 of 262144 bytes (2,1%).
-SRAM used: 2545 of 65536 bytes (3,9%). Stack: 2048 bytes. Heap: 128 bytes.
---------------- Build Succeeded: 04/02/2020 09:21:37 ---------------
+cyelftool.exe -S C:\Users\julie\Documents\GitHub\DigitalElectronicsProject\Project.cydsn\CortexM3\ARM_GCC_541\Debug\Project.elf
+Flash used: 6240 of 262144 bytes (2,4 %).
+SRAM used: 2545 of 65536 bytes (3,9 %). Stack: 2048 bytes. Heap: 128 bytes.
+--------------- Build Succeeded: 04/02/2020 09:30:45 ---------------

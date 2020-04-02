@@ -1,6 +1,6 @@
 (DELAYFILE
  (SDFVERSION "IEEE 1497 4.0")
- (DATE "2020-04-01T17:08:53Z")
+ (DATE "2020-04-02T07:28:59Z")
  (DESIGN "Project")
  (VENDOR "Cypress Semiconductor")
  (PROGRAM "PSoC Creator")
@@ -26,9 +26,9 @@
     (INTERCONNECT \\LCD_Char_1\:LCDPort\(4\)_PAD\\ \\LCD_Char_1\:LCDPort\(4\)\\.pad_in (0.000:0.000:0.000))
     (INTERCONNECT \\LCD_Char_1\:LCDPort\(5\)_PAD\\ \\LCD_Char_1\:LCDPort\(5\)\\.pad_in (0.000:0.000:0.000))
     (INTERCONNECT \\LCD_Char_1\:LCDPort\(6\)_PAD\\ \\LCD_Char_1\:LCDPort\(6\)\\.pad_in (0.000:0.000:0.000))
-    (INTERCONNECT COL0\(0\)_PAD COL0\(0\).pad_in (0.000:0.000:0.000))
     (INTERCONNECT COL1\(0\)_PAD COL1\(0\).pad_in (0.000:0.000:0.000))
     (INTERCONNECT COL2\(0\)_PAD COL2\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT COL3\(0\)_PAD COL3\(0\).pad_in (0.000:0.000:0.000))
     (INTERCONNECT ROW0\(0\)_PAD ROW0\(0\).pad_in (0.000:0.000:0.000))
     (INTERCONNECT ROW1\(0\)_PAD ROW1\(0\).pad_in (0.000:0.000:0.000))
     (INTERCONNECT ROW2\(0\)_PAD ROW2\(0\).pad_in (0.000:0.000:0.000))

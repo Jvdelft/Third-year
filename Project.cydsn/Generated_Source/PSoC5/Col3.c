@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: Col3.c  
+* File Name: COL3.c  
 * Version 2.20
 *
 * Description:
@@ -15,15 +15,15 @@
 *******************************************************************************/
 
 #include "cytypes.h"
-#include "Col3.h"
+#include "COL3.h"
 
 /* APIs are not generated for P15[7:6] on PSoC 5 */
 #if !(CY_PSOC5A &&\
-	 Col3__PORT == 15 && ((Col3__MASK & 0xC0) != 0))
+	 COL3__PORT == 15 && ((COL3__MASK & 0xC0) != 0))
 
 
 /*******************************************************************************
-* Function Name: Col3_Write
+* Function Name: COL3_Write
 ****************************************************************************//**
 *
 * \brief Writes the value to the physical port (data output register), masking
@@ -52,17 +52,17 @@
 *  this function.
 *
 * \funcusage
-*  \snippet Col3_SUT.c usage_Col3_Write
+*  \snippet COL3_SUT.c usage_COL3_Write
 *******************************************************************************/
-void Col3_Write(uint8 value)
+void COL3_Write(uint8 value)
 {
-    uint8 staticBits = (Col3_DR & (uint8)(~Col3_MASK));
-    Col3_DR = staticBits | ((uint8)(value << Col3_SHIFT) & Col3_MASK);
+    uint8 staticBits = (COL3_DR & (uint8)(~COL3_MASK));
+    COL3_DR = staticBits | ((uint8)(value << COL3_SHIFT) & COL3_MASK);
 }
 
 
 /*******************************************************************************
-* Function Name: Col3_SetDriveMode
+* Function Name: COL3_SetDriveMode
 ****************************************************************************//**
 *
 * \brief Sets the drive mode for each of the Pins component's pins.
@@ -85,16 +85,16 @@ void Col3_Write(uint8 value)
 *  APIs (primary method) or disable interrupts around this function.
 *
 * \funcusage
-*  \snippet Col3_SUT.c usage_Col3_SetDriveMode
+*  \snippet COL3_SUT.c usage_COL3_SetDriveMode
 *******************************************************************************/
-void Col3_SetDriveMode(uint8 mode)
+void COL3_SetDriveMode(uint8 mode)
 {
-	CyPins_SetPinDriveMode(Col3_0, mode);
+	CyPins_SetPinDriveMode(COL3_0, mode);
 }
 
 
 /*******************************************************************************
-* Function Name: Col3_Read
+* Function Name: COL3_Read
 ****************************************************************************//**
 *
 * \brief Reads the associated physical port (pin status register) and masks 
@@ -108,16 +108,16 @@ void Col3_SetDriveMode(uint8 mode)
 *  The current value for the pins in the component as a right justified number.
 *
 * \funcusage
-*  \snippet Col3_SUT.c usage_Col3_Read  
+*  \snippet COL3_SUT.c usage_COL3_Read  
 *******************************************************************************/
-uint8 Col3_Read(void)
+uint8 COL3_Read(void)
 {
-    return (Col3_PS & Col3_MASK) >> Col3_SHIFT;
+    return (COL3_PS & COL3_MASK) >> COL3_SHIFT;
 }
 
 
 /*******************************************************************************
-* Function Name: Col3_ReadDataReg
+* Function Name: COL3_ReadDataReg
 ****************************************************************************//**
 *
 * \brief Reads the associated physical port's data output register and masks 
@@ -126,8 +126,8 @@ uint8 Col3_Read(void)
 *
 * The data output register controls the signal applied to the physical pin in 
 * conjunction with the drive mode parameter. This is not the same as the 
-* preferred Col3_Read() API because the 
-* Col3_ReadDataReg() reads the data register instead of the status 
+* preferred COL3_Read() API because the 
+* COL3_ReadDataReg() reads the data register instead of the status 
 * register. For output pins this is a useful function to determine the value 
 * just written to the pin.
 *
@@ -136,19 +136,19 @@ uint8 Col3_Read(void)
 *  justified number for the component instance.
 *
 * \funcusage
-*  \snippet Col3_SUT.c usage_Col3_ReadDataReg 
+*  \snippet COL3_SUT.c usage_COL3_ReadDataReg 
 *******************************************************************************/
-uint8 Col3_ReadDataReg(void)
+uint8 COL3_ReadDataReg(void)
 {
-    return (Col3_DR & Col3_MASK) >> Col3_SHIFT;
+    return (COL3_DR & COL3_MASK) >> COL3_SHIFT;
 }
 
 
 /* If interrupt is connected for this Pins component */ 
-#if defined(Col3_INTSTAT) 
+#if defined(COL3_INTSTAT) 
 
     /*******************************************************************************
-    * Function Name: Col3_SetInterruptMode
+    * Function Name: COL3_SetInterruptMode
     ****************************************************************************//**
     *
     * \brief Configures the interrupt mode for each of the Pins component's
@@ -161,12 +161,12 @@ uint8 Col3_ReadDataReg(void)
     * \param position
     *  The pin position as listed in the Pins component. You may OR these to be 
     *  able to configure the interrupt mode of multiple pins within a Pins 
-    *  component. Or you may use Col3_INTR_ALL to configure the
+    *  component. Or you may use COL3_INTR_ALL to configure the
     *  interrupt mode of all the pins in the Pins component.       
-    *  - Col3_0_INTR       (First pin in the list)
-    *  - Col3_1_INTR       (Second pin in the list)
+    *  - COL3_0_INTR       (First pin in the list)
+    *  - COL3_1_INTR       (Second pin in the list)
     *  - ...
-    *  - Col3_INTR_ALL     (All pins in Pins component)
+    *  - COL3_INTR_ALL     (All pins in Pins component)
     *
     * \param mode
     *  Interrupt mode for the selected pins. Valid options are documented in
@@ -182,19 +182,19 @@ uint8 Col3_ReadDataReg(void)
     *  port.
     *
     * \funcusage
-    *  \snippet Col3_SUT.c usage_Col3_SetInterruptMode
+    *  \snippet COL3_SUT.c usage_COL3_SetInterruptMode
     *******************************************************************************/
-    void Col3_SetInterruptMode(uint16 position, uint16 mode)
+    void COL3_SetInterruptMode(uint16 position, uint16 mode)
     {
-		if((position & Col3_0_INTR) != 0u) 
+		if((position & COL3_0_INTR) != 0u) 
 		{ 
-			 Col3_0_INTTYPE_REG = (uint8)mode; 
+			 COL3_0_INTTYPE_REG = (uint8)mode; 
 		}
     }
     
     
     /*******************************************************************************
-    * Function Name: Col3_ClearInterrupt
+    * Function Name: COL3_ClearInterrupt
     ****************************************************************************//**
     *
     * \brief Clears any active interrupts attached with the component and returns 
@@ -211,11 +211,11 @@ uint8 Col3_ReadDataReg(void)
     *  those associated with the Pins component.
     *
     * \funcusage
-    *  \snippet Col3_SUT.c usage_Col3_ClearInterrupt
+    *  \snippet COL3_SUT.c usage_COL3_ClearInterrupt
     *******************************************************************************/
-    uint8 Col3_ClearInterrupt(void)
+    uint8 COL3_ClearInterrupt(void)
     {
-        return (Col3_INTSTAT & Col3_MASK) >> Col3_SHIFT;
+        return (COL3_INTSTAT & COL3_MASK) >> COL3_SHIFT;
     }
 
 #endif /* If Interrupts Are Enabled for this Pins component */ 

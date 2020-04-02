@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: Col3.h  
+* File Name: COL3.h  
 * Version 2.20
 *
 * Description:
@@ -15,8 +15,8 @@
 * the software package with which this file was provided.
 *******************************************************************************/
 
-#if !defined(CY_PINS_Col3_ALIASES_H) /* Pins Col3_ALIASES_H */
-#define CY_PINS_Col3_ALIASES_H
+#if !defined(CY_PINS_COL3_ALIASES_H) /* Pins COL3_ALIASES_H */
+#define CY_PINS_COL3_ALIASES_H
 
 #include "cytypes.h"
 #include "cyfitter.h"
@@ -25,12 +25,12 @@
 /***************************************
 *              Constants        
 ***************************************/
-#define Col3_0			(Col3__0__PC)
-#define Col3_0_INTR	((uint16)((uint16)0x0001u << Col3__0__SHIFT))
+#define COL3_0			(COL3__0__PC)
+#define COL3_0_INTR	((uint16)((uint16)0x0001u << COL3__0__SHIFT))
 
-#define Col3_INTR_ALL	 ((uint16)(Col3_0_INTR))
+#define COL3_INTR_ALL	 ((uint16)(COL3_0_INTR))
 
-#endif /* End Pins Col3_ALIASES_H */
+#endif /* End Pins COL3_ALIASES_H */
 
 
 /* [] END OF FILE */
