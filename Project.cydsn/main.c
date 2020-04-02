@@ -81,7 +81,6 @@ void MakeShortLight()
 }
 const int* Translate_to_morse(char c){
     strlwr(&c);
-    
     if(c == 'a'){
         return(A);
     }
@@ -173,13 +172,13 @@ void LCDPrint(char* string)
         int i;
         char ToWriteFirst[] = "";
         for(i=0;i<8;i++){
-            strcat(ToWriteFirst,&string[i]);
+            ToWriteFirst[i] = string[i];
         }
         LCD_Char_1_PrintString(ToWriteFirst);
         char ToWriteSecond[] = "";
         LCD_Char_1_Position(1,0);
         for(i=8;i<n;i++){
-            strcat(ToWriteSecond,&string[i]);
+            ToWriteSecond[i] = string[i];
         }
         LCD_Char_1_PrintString(ToWriteSecond);
     }
@@ -235,8 +234,9 @@ int main(void)
     for(;;)
     {   LCD_Char_1_Position(0,0);
         LCD_Char_1_PrintString("hello");
-        if (!(strcmp(keypadScan(),"z"))){
-            strcat(signal,keypadScan());
+        uint8_t keyPressed = keypadScan();
+        if (!(strcmp((char*) &keyPressed,"z"))){
+            strcat(signal,(char*) &keyPressed);
         }
         if(Send_SOS_message(signal) == true){
             *signal = '\0';
