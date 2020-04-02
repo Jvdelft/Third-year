@@ -80,83 +80,84 @@ void MakeShortLight()
     CyDelay(250);
 }
 const int* Translate_to_morse(char c){
+    strlwr(&c);
     
-    if(c == 'a' || c=='A'){
+    if(c == 'a'){
         return(A);
     }
-    else if(c == 'b' || c=='B'){
+    else if(c == 'b'){
         return(B);
     }
-    else if(c == 'c' || c=='C'){
+    else if(c == 'c'){
         return(C);
     }
-    else if(c == 'd' || c=='D'){
+    else if(c == 'd'){
         return(D);
     }
-    else if(c == 'e' || c=='E'){
+    else if(c == 'e'){
         return(E);
     }
-    else if(c == 'f' || c=='F'){
+    else if(c == 'f'){
         return(F);
     }
-    else if(c == 'g' || c=='G'){
+    else if(c == 'g'){
         return(G);
     }
-    else if(c == 'h' || c=='H'){
+    else if(c == 'h'){
         return(H);
     }
-    else if(c == 'i' || c=='I'){
+    else if(c == 'i'){
         return(I);
     }
-    else if(c == 'j' || c=='J'){
+    else if(c == 'j'){
         return(J);
     }
-    else if(c == 'k' || c=='K'){
+    else if(c == 'k'){
         return(K);
     }
-    else if(c == 'l' || c=='L'){
+    else if(c == 'l'){
         return(L);
     }
-    else if(c == 'm' || c=='M'){
+    else if(c == 'm'){
         return(M);
     }
-    else if(c == 'n' || c=='N'){
+    else if(c == 'n'){
         return(N);
     }
-    else if(c == 'o' || c=='O'){
+    else if(c == 'o'){
         return(O);
     }
-    else if(c == 'p' || c=='P'){
+    else if(c == 'p'){
         return(P);
     }
-    else if(c == 'q' || c=='Q'){
+    else if(c == 'q'){
         return(Q);
     }
-    else if(c == 'r' || c=='R'){
+    else if(c == 'r'){
         return(R);
     }
-    else if(c == 's' || c=='S'){
+    else if(c == 's'){
         return(S);
     }
-    else if(c == 't' || c=='T'){
+    else if(c == 't'){
         return(T);
     }
-    else if(c == 'u' || c=='U'){
+    else if(c == 'u'){
         return(U);
     }
-    else if(c == 'v' || c=='V'){
+    else if(c == 'v'){
         return(V);
     }
-    else if(c == 'w' || c=='W'){
+    else if(c == 'w'){
         return(W);
     }
-    else if(c == 'x' || c=='X'){
+    else if(c == 'x'){
         return(X);
     }
-    else if(c == 'y' || c=='Y'){
+    else if(c == 'y'){
         return(Y);
     }
-    else if(c == 'z' || c=='Z'){
+    else if(c == 'z'){
         return(Z);
     }
     else{
