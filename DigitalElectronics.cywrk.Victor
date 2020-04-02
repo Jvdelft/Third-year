@@ -123,6 +123,32 @@
 <VisibleNodeIds>
 <v>DigitalElectronics</v>
 <v>DigitalElectronics\Project</v>
+<v>DigitalElectronics\Project\CortexM3</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\D1.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\D2.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\D3.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\D4.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\keypad.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_Char_1.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_Char_1_LCDPort.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_Char_1_PM.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\Switch_1.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\Switch_2.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
