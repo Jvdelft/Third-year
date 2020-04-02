@@ -51,13 +51,6 @@ const int morse_7[6] = {2,2,1,1,1,0};
 const int morse_8[6] = {2,2,2,1,1,0};
 const int morse_9[6] = {2,2,2,2,1,0};
 
-char * append(char * string1, char * string2)
-{
-    char * result = NULL;
-    asprintf(&result, "%s%s", string1, string2);
-    return result;
-}
-
 /// ET CA FAIT BIM BAM BOUM CA FAIT PSCHIT ET CA FAIT VROUM
 void MakeLongLight()
 {
@@ -173,14 +166,31 @@ const int* Translate_to_morse(char c){
 }
 void LCDPrint(char* string)
 {
+    int n = strlen(string);
     LCD_Char_1_Position(0,0);
-    LCD_Char_1_PrintString(string);
+    if(strlen(string) > 8){
+        int i;
+        char ToWriteFirst[] = "";
+        for(i=0;i<8;i++){
+            strcat(ToWriteFirst,&string[i]);
+        }
+        LCD_Char_1_PrintString(ToWriteFirst);
+        char ToWriteSecond[] = "";
+        LCD_Char_1_Position(1,0);
+        for(i=8;i<n;i++){
+            strcat(ToWriteSecond,&string[i]);
+        }
+        LCD_Char_1_PrintString(ToWriteSecond);
+    }
+    else{
+        LCD_Char_1_PrintString(string);
+    }
 }
 
 void Send_to_leds(char* string){
     LCDPrint(string);
     int n = strlen(string);
-    for(int i = 0; i<n ;n++){
+    for(int i = 0; i<n ;i++){
         int j = 0;
         while(Translate_to_morse(string[i])[j] != 0){
             if(Translate_to_morse(string[i])[j] == 1){
@@ -189,6 +199,7 @@ void Send_to_leds(char* string){
             else if(Translate_to_morse(string[i])[j] == 2){
                 MakeLongLight();
             }
+            j++;
         }
         CyDelay(500);
     }  
@@ -224,7 +235,7 @@ int main(void)
     {   LCD_Char_1_Position(0,0);
         LCD_Char_1_PrintString("hello");
         if (!(strcmp(keypadScan(),"z"))){
-            append(signal,keypadScan());
+            strcat(signal,keypadScan());
         }
         if(Send_SOS_message(signal) == true){
             *signal = '\0';
