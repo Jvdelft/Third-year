@@ -208,10 +208,10 @@ bool Send_SOS_message(char* string)
     }
     else if(strlen(string) == 2){
         if (strcmp(string,"1*")){
-            Send("SOS");
+            Send_to_leds("SOS");
         }
         else if(strcmp(string,"2*")){
-            Send("BEAMS");
+            Send_to_leds("BEAMS");
         }
         return true;
     }
