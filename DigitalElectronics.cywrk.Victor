@@ -163,18 +163,6 @@
 <v>DigitalElectronics\Project\PSoC 5LP Architecture TRM</v>
 <v>DigitalElectronics\Project\CY8C58LP Family Datasheet</v>
 <v>DigitalElectronics\Project\System Reference Guides</v>
-<v>DigitalElectronics\Project\System Reference Guides\cy_boot_v5_90</v>
-<v>DigitalElectronics\Project\CharLCD_v2_20.pdf</v>
-<v>DigitalElectronics\Project\cy_pins_v2_20</v>
-<v>DigitalElectronics\Project\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
-<v>DigitalElectronics\Project\Gnd_v1_0.pdf</v>
-<v>DigitalElectronics\Project\LED_v1_0</v>
-<v>DigitalElectronics\Project\LED_v1_0\LED_v1_0.pdf</v>
-<v>DigitalElectronics\Project\Power_v1_0.pdf</v>
-<v>DigitalElectronics\Project\Resistor_v1_0</v>
-<v>DigitalElectronics\Project\Resistor_v1_0\Resistor_v1_0.pdf</v>
-<v>DigitalElectronics\Project\SwitchSPST_v1_0</v>
-<v>DigitalElectronics\Project\SwitchSPST_v1_0\SwitchSPST_v1_0.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>DigitalElectronics</v>
@@ -182,18 +170,6 @@
 <v>DigitalElectronics\Project\PSoC 5LP Architecture TRM</v>
 <v>DigitalElectronics\Project\CY8C58LP Family Datasheet</v>
 <v>DigitalElectronics\Project\System Reference Guides</v>
-<v>DigitalElectronics\Project\System Reference Guides\cy_boot_v5_90</v>
-<v>DigitalElectronics\Project\CharLCD_v2_20.pdf</v>
-<v>DigitalElectronics\Project\cy_pins_v2_20</v>
-<v>DigitalElectronics\Project\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
-<v>DigitalElectronics\Project\Gnd_v1_0.pdf</v>
-<v>DigitalElectronics\Project\LED_v1_0</v>
-<v>DigitalElectronics\Project\LED_v1_0\LED_v1_0.pdf</v>
-<v>DigitalElectronics\Project\Power_v1_0.pdf</v>
-<v>DigitalElectronics\Project\Resistor_v1_0</v>
-<v>DigitalElectronics\Project\Resistor_v1_0\Resistor_v1_0.pdf</v>
-<v>DigitalElectronics\Project\SwitchSPST_v1_0</v>
-<v>DigitalElectronics\Project\SwitchSPST_v1_0\SwitchSPST_v1_0.pdf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>
@@ -204,6 +180,8 @@
 <Unloaded />
 <OpenDocs>
 <name v=".\Project.cydsn\main.c" />
+<name v=".\Project.cydsn\keypad.c" />
+<name v=".\Project.cydsn\TopDesign\TopDesign.cysch" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -211,7 +189,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="934, 401" SelectedTabbedMdiWindow="f90fa9f8-6119-4923-924e-ba0356a8871b"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="6ac138a9-c4e1-43a1-a2b0-1f309e5a72c9" /><DocumentWindow Key="C:\Users\Victor\Documents\GitHub\DigitalElectronicsProject\Project.cydsn\main.c" Guid="f90fa9f8-6119-4923-924e-ba0356a8871b" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="934, 401" SelectedTabbedMdiWindow="f90fa9f8-6119-4923-924e-ba0356a8871b"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="6ac138a9-c4e1-43a1-a2b0-1f309e5a72c9" /><DocumentWindow Key="C:\Users\Victor\Documents\GitHub\DigitalElectronicsProject\Project.cydsn\main.c" Guid="f90fa9f8-6119-4923-924e-ba0356a8871b" /><DocumentWindow Key="C:\Users\Victor\Documents\GitHub\DigitalElectronicsProject\Project.cydsn\keypad.c" Guid="cae8e3e8-af6d-48b9-8c22-b73523a08428" /><DocumentWindow Key="C:\Users\Victor\Documents\GitHub\DigitalElectronicsProject\Project.cydsn\TopDesign\TopDesign.cysch" Guid="e53adbd9-1efe-4b20-9565-fdab7e6d1cf6" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
