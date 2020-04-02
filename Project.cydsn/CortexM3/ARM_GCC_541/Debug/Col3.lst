@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 1
+ARM GAS  C:\Users\Victor\AppData\Local\Temp\ccEBKTMH.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 1
   28:Generated_Source\PSoC5/COL3.c **** *
   29:Generated_Source\PSoC5/COL3.c **** * \brief Writes the value to the physical port (data output register), masking
   30:Generated_Source\PSoC5/COL3.c **** *  and shifting the bits appropriately. 
-ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 2
+ARM GAS  C:\Users\Victor\AppData\Local\Temp\ccEBKTMH.s 			page 2
 
 
   31:Generated_Source\PSoC5/COL3.c **** *
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 1
   52              		.size	COL3_Write, .-COL3_Write
   53              		.section	.text.COL3_SetDriveMode,"ax",%progbits
   54              		.align	2
-ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 3
+ARM GAS  C:\Users\Victor\AppData\Local\Temp\ccEBKTMH.s 			page 3
 
 
   55              		.global	COL3_SetDriveMode
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 1
   77 0012 00BF     		.align	2
   78              	.L5:
   79 0014 1B500040 		.word	1073762331
-ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 4
+ARM GAS  C:\Users\Victor\AppData\Local\Temp\ccEBKTMH.s 			page 4
 
 
   80              		.cfi_endproc
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 1
  110              		.align	2
  111              		.global	COL3_ReadDataReg
  112              		.thumb
-ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 5
+ARM GAS  C:\Users\Victor\AppData\Local\Temp\ccEBKTMH.s 			page 5
 
 
  113              		.thumb_func
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 1
  139              	.Ldebug_info0:
  140 0000 1B010000 		.4byte	0x11b
  141 0004 0400     		.2byte	0x4
-ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 6
+ARM GAS  C:\Users\Victor\AppData\Local\Temp\ccEBKTMH.s 			page 6
 
 
  142 0006 00000000 		.4byte	.Ldebug_abbrev0
@@ -307,14 +307,14 @@ ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 1
  145 000c 37000000 		.4byte	.LASF20
  146 0010 0C       		.byte	0xc
  147 0011 EF000000 		.4byte	.LASF21
- 148 0015 7B010000 		.4byte	.LASF22
+ 148 0015 50010000 		.4byte	.LASF22
  149 0019 00000000 		.4byte	.Ldebug_ranges0+0
  150 001d 00000000 		.4byte	0
  151 0021 00000000 		.4byte	.Ldebug_line0
  152 0025 02       		.uleb128 0x2
  153 0026 01       		.byte	0x1
  154 0027 06       		.byte	0x6
- 155 0028 D7010000 		.4byte	.LASF0
+ 155 0028 D8010000 		.4byte	.LASF0
  156 002c 02       		.uleb128 0x2
  157 002d 01       		.byte	0x1
  158 002e 08       		.byte	0x8
@@ -322,7 +322,7 @@ ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 1
  160 0033 02       		.uleb128 0x2
  161 0034 02       		.byte	0x2
  162 0035 05       		.byte	0x5
- 163 0036 50010000 		.4byte	.LASF2
+ 163 0036 99010000 		.4byte	.LASF2
  164 003a 02       		.uleb128 0x2
  165 003b 02       		.byte	0x2
  166 003c 07       		.byte	0x7
@@ -330,7 +330,7 @@ ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 1
  168 0041 02       		.uleb128 0x2
  169 0042 04       		.byte	0x4
  170 0043 05       		.byte	0x5
- 171 0044 C3010000 		.4byte	.LASF4
+ 171 0044 C4010000 		.4byte	.LASF4
  172 0048 02       		.uleb128 0x2
  173 0049 04       		.byte	0x4
  174 004a 07       		.byte	0x7
@@ -352,13 +352,13 @@ ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 1
  190 0066 07       		.byte	0x7
  191 0067 14010000 		.4byte	.LASF8
  192 006b 04       		.uleb128 0x4
- 193 006c 5A010000 		.4byte	.LASF12
+ 193 006c A3010000 		.4byte	.LASF12
  194 0070 02       		.byte	0x2
  195 0071 E401     		.2byte	0x1e4
  196 0073 2C000000 		.4byte	0x2c
  197 0077 02       		.uleb128 0x2
  198 0078 04       		.byte	0x4
-ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 7
+ARM GAS  C:\Users\Victor\AppData\Local\Temp\ccEBKTMH.s 			page 7
 
 
  199 0079 04       		.byte	0x4
@@ -379,7 +379,7 @@ ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 1
  214 0098 05       		.uleb128 0x5
  215 0099 6B000000 		.4byte	0x6b
  216 009d 06       		.uleb128 0x6
- 217 009e CC010000 		.4byte	.LASF14
+ 217 009e CD010000 		.4byte	.LASF14
  218 00a2 01       		.byte	0x1
  219 00a3 39       		.byte	0x39
  220 00a4 00000000 		.4byte	.LFB0
@@ -418,10 +418,10 @@ ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 1
  253 00ef 21000000 		.4byte	.LLST1
  254 00f3 00       		.byte	0
  255 00f4 09       		.uleb128 0x9
-ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 8
+ARM GAS  C:\Users\Victor\AppData\Local\Temp\ccEBKTMH.s 			page 8
 
 
- 256 00f5 60010000 		.4byte	.LASF18
+ 256 00f5 A9010000 		.4byte	.LASF18
  257 00f9 01       		.byte	0x1
  258 00fa 71       		.byte	0x71
  259 00fb 6B000000 		.4byte	0x6b
@@ -430,7 +430,7 @@ ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 1
  262 0107 01       		.uleb128 0x1
  263 0108 9C       		.byte	0x9c
  264 0109 09       		.uleb128 0x9
- 265 010a 6A010000 		.4byte	.LASF19
+ 265 010a B3010000 		.4byte	.LASF19
  266 010e 01       		.byte	0x1
  267 010f 8D       		.byte	0x8d
  268 0110 6B000000 		.4byte	0x6b
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 1
  310 0022 0B       		.uleb128 0xb
  311 0023 3E       		.uleb128 0x3e
  312 0024 0B       		.uleb128 0xb
-ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 9
+ARM GAS  C:\Users\Victor\AppData\Local\Temp\ccEBKTMH.s 			page 9
 
 
  313 0025 03       		.uleb128 0x3
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 1
  367 005c 3A       		.uleb128 0x3a
  368 005d 0B       		.uleb128 0xb
  369 005e 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 10
+ARM GAS  C:\Users\Victor\AppData\Local\Temp\ccEBKTMH.s 			page 10
 
 
  370 005f 0B       		.uleb128 0xb
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 1
  424 000a 50       		.byte	0x50
  425 000b 0A000000 		.4byte	.LVL2
  426 000f 18000000 		.4byte	.LFE0
-ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 11
+ARM GAS  C:\Users\Victor\AppData\Local\Temp\ccEBKTMH.s 			page 11
 
 
  427 0013 0400     		.2byte	0x4
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 1
  480      02004100 
  480      00000201 
  480      FB0E0D00 
-ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 12
+ARM GAS  C:\Users\Victor\AppData\Local\Temp\ccEBKTMH.s 			page 12
 
 
  480      01010101 
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 1
  502 00ef 47656E65 		.ascii	"Generated_Source\\PSoC5\\COL3.c\000"
  502      72617465 
  502      645F536F 
-ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 13
+ARM GAS  C:\Users\Victor\AppData\Local\Temp\ccEBKTMH.s 			page 13
 
 
  502      75726365 
@@ -748,47 +748,47 @@ ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 1
  513              	.LASF11:
  514 014b 63686172 		.ascii	"char\000"
  514      00
- 515              	.LASF2:
- 516 0150 73686F72 		.ascii	"short int\000"
- 516      7420696E 
- 516      7400
- 517              	.LASF12:
- 518 015a 75696E74 		.ascii	"uint8\000"
- 518      3800
- 519              	.LASF18:
- 520 0160 434F4C33 		.ascii	"COL3_Read\000"
- 520      5F526561 
- 520      6400
- 521              	.LASF19:
- 522 016a 434F4C33 		.ascii	"COL3_ReadDataReg\000"
- 522      5F526561 
- 522      64446174 
- 522      61526567 
- 522      00
- 523              	.LASF22:
- 524 017b 433A5C55 		.ascii	"C:\\Users\\vidan\\Documents\\GitHub\\DigitalElectro"
- 524      73657273 
- 524      5C766964 
- 524      616E5C44 
- 524      6F63756D 
- 525 01a9 6E696373 		.ascii	"nicsProject\\Project.cydsn\000"
- 525      50726F6A 
- 525      6563745C 
- 525      50726F6A 
- 525      6563742E 
+ 515              	.LASF22:
+ 516 0150 433A5C55 		.ascii	"C:\\Users\\Victor\\Documents\\GitHub\\DigitalElectr"
+ 516      73657273 
+ 516      5C566963 
+ 516      746F725C 
+ 516      446F6375 
+ 517 017e 6F6E6963 		.ascii	"onicsProject\\Project.cydsn\000"
+ 517      7350726F 
+ 517      6A656374 
+ 517      5C50726F 
+ 517      6A656374 
+ 518              	.LASF2:
+ 519 0199 73686F72 		.ascii	"short int\000"
+ 519      7420696E 
+ 519      7400
+ 520              	.LASF12:
+ 521 01a3 75696E74 		.ascii	"uint8\000"
+ 521      3800
+ 522              	.LASF18:
+ 523 01a9 434F4C33 		.ascii	"COL3_Read\000"
+ 523      5F526561 
+ 523      6400
+ 524              	.LASF19:
+ 525 01b3 434F4C33 		.ascii	"COL3_ReadDataReg\000"
+ 525      5F526561 
+ 525      64446174 
+ 525      61526567 
+ 525      00
  526              	.LASF4:
- 527 01c3 6C6F6E67 		.ascii	"long int\000"
-ARM GAS  C:\Users\vidan\AppData\Local\Temp\ccln3hz1.s 			page 14
+ 527 01c4 6C6F6E67 		.ascii	"long int\000"
+ARM GAS  C:\Users\Victor\AppData\Local\Temp\ccEBKTMH.s 			page 14
 
 
  527      20696E74 
  527      00
  528              	.LASF14:
- 529 01cc 434F4C33 		.ascii	"COL3_Write\000"
+ 529 01cd 434F4C33 		.ascii	"COL3_Write\000"
  529      5F577269 
  529      746500
  530              	.LASF0:
- 531 01d7 7369676E 		.ascii	"signed char\000"
+ 531 01d8 7369676E 		.ascii	"signed char\000"
  531      65642063 
  531      68617200 
  532              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

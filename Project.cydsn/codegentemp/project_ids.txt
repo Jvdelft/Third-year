@@ -1,6 +1,6 @@
-C:\Users\vidan\Documents\GitHub\DigitalElectronicsProject\Project.cydsn\Project.cyprj|bfa42519-dd42-4e29-9824-3f93857a987b
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|d346114b-1184-49a8-9e21-fe3cfe9bb629
-C:\Users\vidan\Documents\PSoC Creator\4.3\Downloads ( 4.3).cylib\Downloads ( 4.3).cyprj|e5011e70-050a-4321-ae70-896746758769
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|d2ff013a-2806-4678-ace4-95412c15998c
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|e071be3d-2d6d-47a0-9b90-3048b7edeeac
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|868cdaed-3e88-4487-8fad-bd791907cb01
+C:\Users\Victor\Documents\GitHub\DigitalElectronicsProject\Project.cydsn\Project.cyprj|16f0bfd0-5a89-4f46-927f-f426df52142b
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|28cb055e-c2ac-4f97-9282-3856cd171338
+C:\Users\Victor\Documents\PSoC Creator\4.3\Downloads ( 4.3).cylib\Downloads ( 4.3).cyprj|60f35631-2dde-478e-a89d-f56864c40ed9
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|28c0e700-dd22-48bb-8803-b0a004038faf
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|57808730-001f-48e1-8e67-7c587dba41e5
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|6d891a07-ba18-4157-a597-5413ee87d82c

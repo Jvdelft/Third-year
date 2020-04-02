@@ -51,13 +51,6 @@ const int morse_7[6] = {2,2,1,1,1,0};
 const int morse_8[6] = {2,2,2,1,1,0};
 const int morse_9[6] = {2,2,2,2,1,0};
 
-char * append(char * string1, char * string2)
-{
-    char * result = NULL;
-    asprintf(&result, "%s%s", string1, string2);
-    return result;
-}
-
 /// ET CA FAIT BIM BAM BOUM CA FAIT PSCHIT ET CA FAIT VROUM
 void MakeLongLight()
 {
@@ -89,82 +82,82 @@ void MakeShortLight()
 const int* Translate_to_morse(char c){
     strlwr(&c);
     
-    if(c == 'a' || c=='A'){
+    if(c == 'a'){
         return(A);
     }
-    else if(c == 'b' || c=='B'){
+    else if(c == 'b'){
         return(B);
     }
-    else if(c == 'c' || c=='C'){
+    else if(c == 'c'){
         return(C);
     }
-    else if(c == 'd' || c=='D'){
+    else if(c == 'd'){
         return(D);
     }
-    else if(c == 'e' || c=='E'){
+    else if(c == 'e'){
         return(E);
     }
-    else if(c == 'f' || c=='F'){
+    else if(c == 'f'){
         return(F);
     }
-    else if(c == 'g' || c=='G'){
+    else if(c == 'g'){
         return(G);
     }
-    else if(c == 'h' || c=='H'){
+    else if(c == 'h'){
         return(H);
     }
-    else if(c == 'i' || c=='I'){
+    else if(c == 'i'){
         return(I);
     }
-    else if(c == 'j' || c=='J'){
+    else if(c == 'j'){
         return(J);
     }
-    else if(c == 'k' || c=='K'){
+    else if(c == 'k'){
         return(K);
     }
-    else if(c == 'l' || c=='L'){
+    else if(c == 'l'){
         return(L);
     }
-    else if(c == 'm' || c=='M'){
+    else if(c == 'm'){
         return(M);
     }
-    else if(c == 'n' || c=='N'){
+    else if(c == 'n'){
         return(N);
     }
-    else if(c == 'o' || c=='O'){
+    else if(c == 'o'){
         return(O);
     }
-    else if(c == 'p' || c=='P'){
+    else if(c == 'p'){
         return(P);
     }
-    else if(c == 'q' || c=='Q'){
+    else if(c == 'q'){
         return(Q);
     }
-    else if(c == 'r' || c=='R'){
+    else if(c == 'r'){
         return(R);
     }
-    else if(c == 's' || c=='S'){
+    else if(c == 's'){
         return(S);
     }
-    else if(c == 't' || c=='T'){
+    else if(c == 't'){
         return(T);
     }
-    else if(c == 'u' || c=='U'){
+    else if(c == 'u'){
         return(U);
     }
-    else if(c == 'v' || c=='V'){
+    else if(c == 'v'){
         return(V);
     }
-    else if(c == 'w' || c=='W'){
+    else if(c == 'w'){
         return(W);
     }
-    else if(c == 'x' || c=='X'){
+    else if(c == 'x'){
         return(X);
     }
-    else if(c == 'y' || c=='Y'){
+    else if(c == 'y'){
         return(Y);
     }
-    else if(c == 'z' || c=='Z'){
+    else if(c == 'z'){
         return(Z);
     }
     else{
@@ -173,30 +166,41 @@ const int* Translate_to_morse(char c){
     
 }
 void LCDPrint(char* string)
-{   
-    LCD_Char_1_ClearDisplay();
+{
+    int n = strlen(string);
     LCD_Char_1_Position(0,0);
-    LCD_Char_1_PrintString(string);
+    if(strlen(string) > 8){
+        int i;
+        char ToWriteFirst[] = "";
+        for(i=0;i<8;i++){
+            strcat(ToWriteFirst,&string[i]); 
+        }
+        LCD_Char_1_PrintString(ToWriteFirst);
+        char ToWriteSecond[] = "";
+        LCD_Char_1_Position(1,0);
+        for(i=8;i<n;i++){
+            strcat(ToWriteSecond,&string[i]);
+        }
+        LCD_Char_1_PrintString(ToWriteSecond);
+    }
+    else{
+        LCD_Char_1_PrintString(string);
+    }
 }
 
 void Send_to_leds(char* string){
-    
+    LCDPrint(string);
     int n = strlen(string);
     for(int i = 0; i<n ;i++){
         int j = 0;
-
-        
         while(Translate_to_morse(string[i])[j] != 0){
-            
             if(Translate_to_morse(string[i])[j] == 1){
-                MakeShortLight();               
+                MakeShortLight();
             }
             else if(Translate_to_morse(string[i])[j] == 2){
-                MakeLongLight();              
+                MakeLongLight();
             }
             j++;
-            LCD_Char_1_ClearDisplay();
-            CyDelay(500);
         }
         CyDelay(500);
     }  
@@ -227,12 +231,12 @@ int main(void)
     char signal[] = "";
     keypadInit();
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
-    Send_to_leds("SOS");
+
     for(;;)
-    {   
-        
+    {   LCD_Char_1_Position(0,0);
+        LCD_Char_1_PrintString("hello");
         if (!(strcmp(keypadScan(),"z"))){
-            append(signal,keypadScan());
+            strcat(signal,keypadScan());
         }
         if(Send_SOS_message(signal) == true){
             *signal = '\0';
