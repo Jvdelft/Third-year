@@ -87,6 +87,7 @@ void MakeShortLight()
     CyDelay(250);
 }
 const int* Translate_to_morse(char c){
+    strlwr(&c);
     
     if(c == 'a' || c=='A'){
         return(A);
