@@ -239,7 +239,6 @@ int main(void)
             strcat(signal,(char*) &keyPressed);
         }
         if(Send_SOS_message(signal) == true){
-            *signal = '\0';
         }
         if(Switch_1_Read()){
             D1_Write(1);
