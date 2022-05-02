@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="DigitalElectronics\Project\Source Files\main.c">
+<ExpandedNodeIds>
+<v>DigitalElectronics</v>
+<v>DigitalElectronics\Project</v>
+<v>DigitalElectronics\Project\TopDesign</v>
+<v>DigitalElectronics\Project\Project.cydwr</v>
+<v>DigitalElectronics\Project\Project.cydwr\Pins</v>
+<v>DigitalElectronics\Project\Project.cydwr\Analog</v>
+<v>DigitalElectronics\Project\Project.cydwr\Clocks</v>
+<v>DigitalElectronics\Project\Project.cydwr\Interrupts</v>
+<v>DigitalElectronics\Project\Project.cydwr\DMA</v>
+<v>DigitalElectronics\Project\Project.cydwr\System</v>
+<v>DigitalElectronics\Project\Project.cydwr\Directives</v>
+<v>DigitalElectronics\Project\Project.cydwr\Flash Security</v>
+<v>DigitalElectronics\Project\Project.cydwr\EEPROM</v>
+<v>DigitalElectronics\Project\Header Files</v>
+<v>DigitalElectronics\Project\Header Files\cyapicallbacks.h</v>
+<v>DigitalElectronics\Project\Header Files\keypad.h</v>
+<v>DigitalElectronics\Project\Source Files</v>
+<v>DigitalElectronics\Project\Source Files\keypad.c</v>
+<v>DigitalElectronics\Project\Source Files\main.c</v>
+<v>DigitalElectronics\Project\Generated_Source</v>
+<v>DigitalElectronics\Project\Generated_Source\PSoC5</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>DigitalElectronics</v>
+<v>DigitalElectronics\Project</v>
+<v>DigitalElectronics\Project\TopDesign</v>
+<v>DigitalElectronics\Project\Project.cydwr</v>
+<v>DigitalElectronics\Project\Project.cydwr\Pins</v>
+<v>DigitalElectronics\Project\Project.cydwr\Analog</v>
+<v>DigitalElectronics\Project\Project.cydwr\Clocks</v>
+<v>DigitalElectronics\Project\Project.cydwr\Interrupts</v>
+<v>DigitalElectronics\Project\Project.cydwr\DMA</v>
+<v>DigitalElectronics\Project\Project.cydwr\System</v>
+<v>DigitalElectronics\Project\Project.cydwr\Directives</v>
+<v>DigitalElectronics\Project\Project.cydwr\Flash Security</v>
+<v>DigitalElectronics\Project\Project.cydwr\EEPROM</v>
+<v>DigitalElectronics\Project\Header Files</v>
+<v>DigitalElectronics\Project\Header Files\cyapicallbacks.h</v>
+<v>DigitalElectronics\Project\Header Files\keypad.h</v>
+<v>DigitalElectronics\Project\Source Files</v>
+<v>DigitalElectronics\Project\Source Files\keypad.c</v>
+<v>DigitalElectronics\Project\Source Files\main.c</v>
+<v>DigitalElectronics\Project\Generated_Source</v>
+<v>DigitalElectronics\Project\Generated_Source\PSoC5</v>
+<v>DigitalElectronics\Project\Generated_Source\PSoC5\Col1</v>
+<v>DigitalElectronics\Project\Generated_Source\PSoC5\Col2</v>
+<v>DigitalElectronics\Project\Generated_Source\PSoC5\Col3</v>
+<v>DigitalElectronics\Project\Generated_Source\PSoC5\cy_boot</v>
+<v>DigitalElectronics\Project\Generated_Source\PSoC5\D1</v>
+<v>DigitalElectronics\Project\Generated_Source\PSoC5\D2</v>
+<v>DigitalElectronics\Project\Generated_Source\PSoC5\D3</v>
+<v>DigitalElectronics\Project\Generated_Source\PSoC5\D4</v>
+<v>DigitalElectronics\Project\Generated_Source\PSoC5\Em_EEPROM_Dynamic</v>
+<v>DigitalElectronics\Project\Generated_Source\PSoC5\LCD_Char_1</v>
+<v>DigitalElectronics\Project\Generated_Source\PSoC5\LCD_Char_1_LCDPort</v>
+<v>DigitalElectronics\Project\Generated_Source\PSoC5\Row0</v>
+<v>DigitalElectronics\Project\Generated_Source\PSoC5\Row1</v>
+<v>DigitalElectronics\Project\Generated_Source\PSoC5\Row2</v>
+<v>DigitalElectronics\Project\Generated_Source\PSoC5\Row3</v>
+<v>DigitalElectronics\Project\Generated_Source\PSoC5\Switch_1</v>
+<v>DigitalElectronics\Project\Generated_Source\PSoC5\Switch_2</v>
+<v>DigitalElectronics\Project\Generated_Source\PSoC5\Switch_3</v>
+<v>DigitalElectronics\Project\Generated_Source\PSoC5\cycodeshareexport.ld</v>
+<v>DigitalElectronics\Project\Generated_Source\PSoC5\cycodeshareimport.ld</v>
+<v>DigitalElectronics\Project\Generated_Source\PSoC5\cycodeshareimport.scat</v>
+<v>DigitalElectronics\Project\Generated_Source\PSoC5\cydevice.h</v>
+<v>DigitalElectronics\Project\Generated_Source\PSoC5\cydevice_trm.h</v>
+<v>DigitalElectronics\Project\Generated_Source\PSoC5\cydevicegnu.inc</v>
+<v>DigitalElectronics\Project\Generated_Source\PSoC5\cydevicegnu_trm.inc</v>
+<v>DigitalElectronics\Project\Generated_Source\PSoC5\cydeviceiar.inc</v>
+<v>DigitalElectronics\Project\Generated_Source\PSoC5\cydeviceiar_trm.inc</v>
+<v>DigitalElectronics\Project\Generated_Source\PSoC5\cydevicerv.inc</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>DigitalElectronics</v>
+<v>DigitalElectronics\Project</v>
+<v>DigitalElectronics\Project\TopDesign</v>
+<v>DigitalElectronics\Project\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>DigitalElectronics</v>
+<v>DigitalElectronics\Project</v>
+<v>DigitalElectronics\Project\TopDesign</v>
+<v>DigitalElectronics\Project\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>DigitalElectronics</v>
+<v>DigitalElectronics\Project</v>
+<v>DigitalElectronics\Project\CortexM3</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\D1.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\D2.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\D3.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\D4.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\keypad.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_Char_1.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_Char_1_LCDPort.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_Char_1_PM.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\Switch_1.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\Switch_2.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\Switch_3.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Project.elf</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Project.hex</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Project.map</v>
+<v>DigitalElectronics\Project\Project.gpdsc</v>
+<v>DigitalElectronics\Project\Project.rpt</v>
+<v>DigitalElectronics\Project\Project_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>DigitalElectronics</v>
+<v>DigitalElectronics\Project</v>
+<v>DigitalElectronics\Project\CortexM3</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\D1.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\D2.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\D3.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\D4.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\keypad.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_Char_1.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_Char_1_LCDPort.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_Char_1_PM.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\Switch_1.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\Switch_2.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Listing Files\Switch_3.lst</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Project.elf</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Project.hex</v>
+<v>DigitalElectronics\Project\CortexM3\ARM_GCC_541\Debug\Project.map</v>
+<v>DigitalElectronics\Project\Project.gpdsc</v>
+<v>DigitalElectronics\Project\Project.rpt</v>
+<v>DigitalElectronics\Project\Project_timing.html</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>DigitalElectronics</v>
+<v>DigitalElectronics\Project</v>
+<v>DigitalElectronics\Project\PSoC 5LP Architecture TRM</v>
+<v>DigitalElectronics\Project\CY8C58LP Family Datasheet</v>
+<v>DigitalElectronics\Project\System Reference Guides</v>
+<v>DigitalElectronics\Project\System Reference Guides\cy_boot_v5_90</v>
+<v>DigitalElectronics\Project\CharLCD_v2_20.pdf</v>
+<v>DigitalElectronics\Project\cy_pins_v2_20</v>
+<v>DigitalElectronics\Project\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>DigitalElectronics\Project\Gnd_v1_0.pdf</v>
+<v>DigitalElectronics\Project\LED_v1_0</v>
+<v>DigitalElectronics\Project\LED_v1_0\LED_v1_0.pdf</v>
+<v>DigitalElectronics\Project\Power_v1_0.pdf</v>
+<v>DigitalElectronics\Project\Resistor_v1_0</v>
+<v>DigitalElectronics\Project\Resistor_v1_0\Resistor_v1_0.pdf</v>
+<v>DigitalElectronics\Project\SwitchSPST_v1_0</v>
+<v>DigitalElectronics\Project\SwitchSPST_v1_0\SwitchSPST_v1_0.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>DigitalElectronics</v>
+<v>DigitalElectronics\Project</v>
+<v>DigitalElectronics\Project\PSoC 5LP Architecture TRM</v>
+<v>DigitalElectronics\Project\CY8C58LP Family Datasheet</v>
+<v>DigitalElectronics\Project\System Reference Guides</v>
+<v>DigitalElectronics\Project\System Reference Guides\cy_boot_v5_90</v>
+<v>DigitalElectronics\Project\CharLCD_v2_20.pdf</v>
+<v>DigitalElectronics\Project\cy_pins_v2_20</v>
+<v>DigitalElectronics\Project\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>DigitalElectronics\Project\Gnd_v1_0.pdf</v>
+<v>DigitalElectronics\Project\LED_v1_0</v>
+<v>DigitalElectronics\Project\LED_v1_0\LED_v1_0.pdf</v>
+<v>DigitalElectronics\Project\Power_v1_0.pdf</v>
+<v>DigitalElectronics\Project\Resistor_v1_0</v>
+<v>DigitalElectronics\Project\Resistor_v1_0\Resistor_v1_0.pdf</v>
+<v>DigitalElectronics\Project\SwitchSPST_v1_0</v>
+<v>DigitalElectronics\Project\SwitchSPST_v1_0\SwitchSPST_v1_0.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\Project.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\Project.cydsn\main.c" />
+<name v=".\Project.cydsn\Project.cydwr" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1344, 719" SelectedTabbedMdiWindow="7bb85811-8018-4f00-98bc-7400fbc81ec0"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="adaea95a-87de-437e-b70b-caea69af16dc" /><DocumentWindow Key="C:\Users\vidan\Documents\GitHub\DigitalElectronicsProject\Project.cydsn\TopDesign\TopDesign.cysch" Guid="809313e9-f3f7-41fe-9cab-d55cef33224a" /><DocumentWindow Key="C:\Users\vidan\Documents\GitHub\DigitalElectronicsProject\Project.cydsn\main.c" Guid="7bb85811-8018-4f00-98bc-7400fbc81ec0" /><DocumentWindow Key="C:\Users\vidan\Documents\GitHub\DigitalElectronicsProject\Project.cydsn\Project.cydwr" Guid="f1cb031c-18e7-4418-8283-a8973db9374d" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>
